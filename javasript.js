@@ -1,16 +1,15 @@
-window.prompt("input");
-function Pagi();
+
+function pagi()
 {
-    document.getElementById("pagi")
-    event.preventDefault();
+    document.getElementById("pagi").innerHTML="Selamat Pagi Netizen"
+    
 }
-function siang();
+function siang()
 {
-    document.getElementById("siang")
-    event.preventDefault();
+    document.getElementById("pagi").innerHTML = "Selamat Siang Netizen"
+
 }
-function malam();
+function malam()
 {
-    document.getElementById("malam");
-    event.preventDefault();
+    document.getElementById("pagi").innerHTML="Selamat Malam Netizen"
 }
